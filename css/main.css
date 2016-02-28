@@ -1,0 +1,94 @@
+
+body, html {
+    height: 100%;           /* so that the wrapper will fill the whole page */
+    font-family: 'Oxygen Mono';
+}
+
+
+body {
+    background: #dadada;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    color: darkgray;
+    font-size: small;
+}
+
+a:link, a:visited {
+    color: inherit;
+}
+
+/* A "narrow" column centered for all content */
+.wrapper {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 850px;
+    background-color: white;
+    min-height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.title {
+    padding-bottom: 1em;
+}
+
+.main {
+    padding-bottom: 6em;   /* height of the footer element */
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 6em;
+    width: 850px;
+}
+
+.meme {
+    font-size: large;
+    font-weight: 400;
+    width: 470px;
+    margin: 0 auto 1em;
+}
+
+.author {
+    color: darkgray;
+    font-size: smaller;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.original {
+    font-size: x-small;
+    margin-bottom: 2em;
+}
+
+.paging {
+    font-size: inherit;
+}
+
+.paging span:first-child, .paging span:last-child{
+    color: cornflowerblue;
+}
+
+.paging a:link {
+    text-decoration: none;
+}
+
+.paging a:hover {
+    text-decoration: underline;
+    color: dodgerblue;
+}
+
+.inspired {
+    color: darkgreen;
+    font-size: small;
+    margin-bottom: 1em;
+}
+
+.license {
+    color: #a3a3a3;
+    font-size: xx-small;
+}
